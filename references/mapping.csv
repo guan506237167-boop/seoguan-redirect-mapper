@@ -1,0 +1,5 @@
+old_url,new_url
+https://example.com/a,https://example.com/b
+https://example.com/b,https://example.com/a
+https://example.com/c,https://example.com/d
+https://example.com/c,https://example.com/e

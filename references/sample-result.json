@@ -1,0 +1,72 @@
+{
+  "counts": {
+    "unique_pairs": 4,
+    "old_urls": 3,
+    "issues": 5
+  },
+  "issues": [
+    {
+      "type": "conflicting_targets",
+      "old_url": "https://example.com/c",
+      "targets": [
+        "https://example.com/d",
+        "https://example.com/e"
+      ]
+    },
+    {
+      "type": "redirect_chain",
+      "old_url": "https://example.com/a",
+      "intermediate": "https://example.com/b"
+    },
+    {
+      "type": "cycle",
+      "urls": [
+        "https://example.com/a",
+        "https://example.com/b",
+        "https://example.com/a"
+      ]
+    },
+    {
+      "type": "redirect_chain",
+      "old_url": "https://example.com/b",
+      "intermediate": "https://example.com/a"
+    },
+    {
+      "type": "unmapped_old_url",
+      "old_url": "https://example.com/f"
+    }
+  ],
+  "original_rows": [
+    {
+      "line": 2,
+      "old_url": "https://example.com/a",
+      "new_url": "https://example.com/b",
+      "normalized_old_url": "https://example.com/a",
+      "normalized_new_url": "https://example.com/b"
+    },
+    {
+      "line": 3,
+      "old_url": "https://example.com/b",
+      "new_url": "https://example.com/a",
+      "normalized_old_url": "https://example.com/b",
+      "normalized_new_url": "https://example.com/a"
+    },
+    {
+      "line": 4,
+      "old_url": "https://example.com/c",
+      "new_url": "https://example.com/d",
+      "normalized_old_url": "https://example.com/c",
+      "normalized_new_url": "https://example.com/d"
+    },
+    {
+      "line": 5,
+      "old_url": "https://example.com/c",
+      "new_url": "https://example.com/e",
+      "normalized_old_url": "https://example.com/c",
+      "normalized_new_url": "https://example.com/e"
+    }
+  ],
+  "inventory_checked": true,
+  "live_redirects_checked": false,
+  "destination_status": "unverified"
+}
