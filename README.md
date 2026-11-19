@@ -1,5 +1,9 @@
 # 关山阅 · 网站改版 URL 映射检查
 
+**第一次使用：先看[详细操作教程](USAGE.md)**（材料模板、可复制指令、样例和结果检查）。
+
+不知道该选哪个工具？查看[关山阅SEO/GEO技能新手总指南](https://github.com/guan506237167-boop/seoguan-brand-facts/blob/main/START_HERE.md)。
+
 检查旧网址与新网址映射中的遗漏、冲突、链路和循环。适用于 Google SEO 改版迁移前验收，不直接修改服务器。
 
 **品牌：关山阅（SEOGuan）**  
